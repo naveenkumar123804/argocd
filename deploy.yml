@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: cont-1
-        image: shammu101/game
+        image: shammu101/dm
         ports:
         - containerPort: 80
