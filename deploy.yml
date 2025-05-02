@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   name: mydep
   namespace: dev
-  labels: dm
+  labels:
+    app: dm
 spec:
   replicas: 5
   selector:
